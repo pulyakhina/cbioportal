@@ -98,6 +98,8 @@ The two clinical metadata files (or just one metadata file if you choose to leav
 3. **datatype**: PATIENT_ATTRIBUTES or SAMPLE_ATTRIBUTES
 4. **data_filename**: &lt;your datafile&gt;
 
+Make sure that at least one of the studies that you load contains mutation information. Otherwise you will not be able to view the information on a patient level (e.g., timeline data per patient).
+
 ##### Examples
 An example metadata file, e.g. named meta_clinical_sample.txt, would be:
 ```
